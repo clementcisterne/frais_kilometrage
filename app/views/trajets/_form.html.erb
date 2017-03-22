@@ -1,0 +1,42 @@
+<%= form_for(trajet) do |f| %>
+  <% if trajet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(trajet.errors.count, "error") %> prohibited this trajet from being saved:</h2>
+
+      <ul>
+      <% trajet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.text_field :date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :origine %>
+    <%= f.text_field :origine %>
+  </div>
+
+  <div class="field">
+    <%= f.label :destination %>
+    <%= f.text_field :destination %>
+  </div>
+
+  <div class="field">
+    <%= f.label :motif %>
+    <%= f.text_field :motif %>
+  </div>
+
+  <div class="field">
+    <%= f.label :distance %>
+    <%= f.number_field :distance %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

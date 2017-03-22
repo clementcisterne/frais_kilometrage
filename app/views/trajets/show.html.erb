@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @trajet.date %>
+</p>
+
+<p>
+  <strong>Origine:</strong>
+  <%= @trajet.origine %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @trajet.destination %>
+</p>
+
+<p>
+  <strong>Motif:</strong>
+  <%= @trajet.motif %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @trajet.distance %>
+</p>
+
+<%= link_to 'Edit', edit_trajet_path(@trajet) %> |
+<%= link_to 'Back', trajets_path %>
