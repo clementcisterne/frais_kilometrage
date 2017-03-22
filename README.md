@@ -34,7 +34,8 @@ Frais_kilometrage vous permet de gérer une liste de trajet
 * How to run the test suite
 
   to run the test suite on the trajets controller run the command:
-    >  rails db:migrate RAILS_ENV=test
+    >  rails db:migrate RAILS_ENV=test 
+    
     >  rails test test/controllers/trajets_controller_test.rb:3
     
 * Deployment instructions
