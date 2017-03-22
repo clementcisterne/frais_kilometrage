@@ -25,8 +25,8 @@ Frais_kilometrage vous permet de gérer une liste de trajet
 
 * Database creation
 
- run the command:
-  > rake db:migrate
+  run the command:
+    > rake db:migrate
 
 * Database initialization
 
