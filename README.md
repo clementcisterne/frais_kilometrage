@@ -1,6 +1,6 @@
 # Frais_kilometrage
 
-Frais_kilometrage vous permet de gérer une liste de trajet
+Frais_kilometrage allows you to manage your travel 
 
 * Ruby version
 
