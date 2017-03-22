@@ -4,7 +4,7 @@ Frais_kilometrage vous permet de gérer une liste de trajet
 
 * Ruby version
 
-  You need the last stable version of ruby 
+  You need the last stable version of ruby (2.2.0)
 
 * System dependencies
 
