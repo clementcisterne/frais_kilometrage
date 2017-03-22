@@ -38,7 +38,7 @@ Frais_kilometrage allows you to manage your travel
   to run the test suite on the trajets controller run the command:
     >  rails db:migrate RAILS_ENV=test 
     
-    >  rails test test/controllers/trajets_controller_test.rb:3
+    >  rails test test/controllers/trajets_controller_test.rb
     
 * Deployment instructions
   
